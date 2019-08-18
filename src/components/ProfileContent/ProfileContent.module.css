@@ -1,12 +1,12 @@
-.profile__content {
-    padding-top: 50px;
-    margin-top:0px;
-}
-
 .content__posts {
     height: 100%;
     margin-left: 240px;
     margin-top: 65px;
+}
+
+.profile__content {
+    padding-top: 50px;
+    margin-top:0px;
 }
 
 @media screen and (max-width:1199px)  {

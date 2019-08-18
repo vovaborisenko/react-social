@@ -229,9 +229,7 @@ header .dropdown-menu li, header .dropdown-menu li a { display: block;
 
 
 
-.profile-content .nav-tabs {
-    padding-left: 130px;
-}
+
 
 .profile-data {
     list-style: none;
@@ -376,7 +374,7 @@ footer.login-footer {
 6. Settings
 -----------------------------------------------------------------*/
 
-.modal-dialog  { width:700px;}
+
 
 .modal-header { background: #4F5467;
                 color: #ffffff;
@@ -460,7 +458,7 @@ footer.login-footer {
 
   .form-box  {margin-bottom:60px;}
 
-  .modal-dialog  { width:auto;}
+  
 
 }
 

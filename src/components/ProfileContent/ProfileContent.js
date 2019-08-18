@@ -1,29 +1,13 @@
 import React from 'react';
 import s from './ProfileContent.module.css';
-import Banner from './../Banner/Banner';
 
-const ProfileContent = () => {
+const ProfileContent = (props) => {
     return (
         <div className={`${s.content__posts} ${s.profile__content}`}>
-        <Banner img="./img/banner.jpg"/>
+            {props.children}
+        
         {/* <!-- Tab Panel --> */}
-        <ul className="nav nav-tabs" role="tablist">
-            <li className="active">
-                <a href="https://socialyte.codeplus.it/personal-profile.html#posts" role="tab" id="postsTab" data-toggle="tab" aria-controls="posts" aria-expanded="true">
-                    Last posts
-                </a>
-            </li>
-            <li className="">
-                <a href="https://socialyte.codeplus.it/personal-profile.html#profile" role="tab" id="profileTab" data-toggle="tab" aria-controls="profile" aria-expanded="false">
-                    Profile
-                </a>
-            </li>
-            <li className="">
-                <a href="https://socialyte.codeplus.it/personal-profile.html#chat" role="tab" id="chatTab" data-toggle="tab" aria-controls="chat" aria-expanded="false">
-                    Chat
-                </a>
-            </li>
-        </ul>
+        
 
         {/* <!--Start Tab Content--> */}
         <div className="tab-content">

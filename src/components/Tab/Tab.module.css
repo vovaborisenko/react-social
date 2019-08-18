@@ -1,0 +1,9 @@
+.nav__tabs {
+    padding-left: 130px;
+    border-bottom: 1px solid #ddd
+}
+
+
+@media screen and (max-width:767px)  {
+    .nav__tabs  { padding-left:15px; }
+}
