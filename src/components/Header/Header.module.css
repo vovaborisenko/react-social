@@ -8,3 +8,24 @@
     width: 100%;
     z-index: 9;
 }
+
+@media screen and (max-width:1199px)  {
+    .header {
+        padding: 15px 30px 10px 220px;
+    }
+}
+
+@media screen and (max-width:767px)  {
+    .header {
+        padding:0px;
+        min-height: 104px;
+        padding-left:125px;
+    }
+}
+
+@media screen and (max-width:479px)  {
+    .header {
+        padding-left: 100px;
+        min-height:100px;
+    }
+}

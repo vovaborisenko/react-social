@@ -10,7 +10,7 @@ Version: 1.1
 [Main Color]
 here you can change #f3ad00 main color.
 -----------------------------------------------------------------*/
-.btn-social, .badge, .btn-social, .bootstrap-switch .bootstrap-switch-handle-off.bootstrap-switch-primary,
+.btn-social, .btn-social, .bootstrap-switch .bootstrap-switch-handle-off.bootstrap-switch-primary,
 .bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-primary,
 ::-webkit-scrollbar-thumb, ::-webkit-scrollbar-thumb:window-inactive {
     background: #f3ad00;
@@ -37,7 +37,7 @@ here you can change #f3ad00 main color.
 1. Body
 -----------------------------------------------------------------*/
 
-html, body, .sidebar-nav, .content-posts {
+html, body {
     height: 100%;
 }
 
@@ -72,10 +72,7 @@ video, img {
 
 .btn:focus,.btn:active, .btn:active:focus  { outline:none; }
 
-.content-posts {
-    margin-left: 240px;
-    margin-top: 65px;
-}
+
 
 .img-user {
     width: 90%;
@@ -108,10 +105,7 @@ header, header a, header a:link, header a:visited, header a:focus {
     text-decoration: none;
 }
 
-header .search {
-    float: left;
-    margin: 0px;
-}
+
 
 header .fa {
     font-size: 18px;
@@ -121,11 +115,9 @@ header div {
     float: right;
 }
 
-header .second-icon {
-    margin-right: 60px;
-}
 
-header .menu-icon { margin-top:3px; }
+
+
 
 header .dropdown-menu, header .dropdown-menu a, header .dropdown-menu a:link, header .dropdown-menu a:focus, header .dropdown-menu a:visited {
     color: #404040;
@@ -148,40 +140,15 @@ header .dropdown-menu li, header .dropdown-menu li a { display: block;
     cursor: pointer;
 }
 
-.badge {
-    padding: 4px 8px;
-    font-size: 11px;
-}
 
-header .badge {
-    position: absolute;
-    top: -8px;
-    right: -12px;
-}
 
 .new-not {
     background: #ffeab6;
 }
 
-.search input {
-    width: 200px;
-    border-radius: 10px;
-    border: 0px;
-    color: #404040;
-    font-size: 13px;
-    padding: 5px;
-    padding-bottom: 3px;
-}
 
-.sidebar-nav {
-    box-shadow: 1px 0px 20px rgba(0, 0, 0, 0.08);
-    position: fixed;
-    width: 240px;
-    top: 0px;
-    padding: 50px 10px 0px 10px;
-    background: #ffffff;
-    z-index: 99;
-}
+
+
 
 
 
@@ -258,18 +225,9 @@ header .badge {
 4. User Profile
 -----------------------------------------------------------------*/
 
-.banner-profile {
-    height: 160px;
-    width: 100%;
-    background-image: url('banner.jpg');
-    background-size: cover;
-    background-position: center;
-}
 
-.profile-content {
-    padding-top: 50px;
-    margin-top:0px;
-}
+
+
 
 .profile-content .nav-tabs {
     padding-left: 130px;
@@ -451,11 +409,11 @@ footer.login-footer {
 8. Small Devices
 -----------------------------------------------------------------*/
 
-@media screen and (max-width:1199px)  {   header { padding: 15px 30px 10px 220px;  }
+@media screen and (max-width:1199px)  {
 
-                                          .sidebar-nav {  width:190px;  }
+                                          
 
-                                          .content-posts {  margin-left:190px;}
+                                          
 
                                           .container-posts { padding:0px 30px;  }
                                       }
@@ -470,20 +428,12 @@ footer.login-footer {
 
 @media screen and (max-width:767px)  {
 
-  header { padding:0px;
-           min-height: 104px;
-           padding-left:125px;}
+  
 
-  header .search, header .search input, header .dropdown { width:100%; }
-
-  header .search input  { border-radius:0px;
-                          height: 40px;}
+  header .dropdown { width:100%; }
 
   header .dropdown-menu { top:36px; }
 
-  .sidebar-nav {  width:125px;
-                  height: auto;
-                  padding: 10px;}
 
   .img-user   { width:80%;
                 margin-left:10%;  }
@@ -494,26 +444,14 @@ footer.login-footer {
   .card-post .chat-row .img-user  { width:100%;
                                     margin:0px;}
 
-  header .menu-icon { margin:0px;
-                      margin-top:25px;
-                      width:25%;
-                      text-align: center;}
+  
 
-  header .menu-icon .fa  {  font-size: 20px;  }
+  
 
-  header .badge { position: relative;
-                  right: 15px;
-                  top:-12px;}
-
-  .content-posts  {  margin:0px;
-                     margin-top:120px;}
 
   .container-posts, .primary-content .container-posts { padding:0px 15px;  }
 
   .data-post { margin-top:15px;}
-
-  .profile-content  {  margin-top: 0px;
-                       padding-top: 100px;}
 
   .profile-content .nav-tabs  { padding-left:15px; }
 
@@ -527,8 +465,7 @@ footer.login-footer {
 }
 
 @media screen and (max-width:479px)  {
-                                          header { padding-left: 100px;
-                                                   min-height:100px; }
+                                          
 
                                           header .dropdown-menu { top:32px; }
 
@@ -538,7 +475,7 @@ footer.login-footer {
                                           .card-post  .img-user  {width:90%;
                                                                   margin-left:5%;}
 
-                                          .sidebar-nav { width: 100px;}
+                                          
 
                                           .form-box  {width: 310px;
                                                       margin-top: -225px;}

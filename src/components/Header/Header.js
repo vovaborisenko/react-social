@@ -1,12 +1,12 @@
 import React from 'react';
 import s from './Header.module.css';
+import Search from '../Search/Search';
+import MenuIcon from '../MenuIcon/MenuIcon';
 
 const Header = () => {
     return (
     <header className={`text-right ${s.header}`}>
-        <form className="text-left search" method="GET">
-            <input name="q" type="text" placeholder="Search.."/>
-        </form>
+        <Search/>
         <div className="menu-icon">
             <div className="dropdown">
                 <span className="dropdown-toggle" role="button" id="dropdownSettings" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
@@ -48,7 +48,9 @@ const Header = () => {
         </div>
         <div className="second-icon dropdown menu-icon">
             <span className="dropdown-toggle" role="button" id="dropdownNotification" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-        <span className="hidden-xs hidden-sm">Notifications</span> <i className="fa fa-bell-o" aria-hidden="true"></i> <span className="badge">2</span>
+                <span className="hidden-xs hidden-sm">Notifications</span> 
+                <i className="fa fa-bell-o" aria-hidden="true"></i>
+                <span className="badge">2</span>
             </span>
             <ul className="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownNotification">
                 <li className="new-not">
@@ -64,14 +66,10 @@ const Header = () => {
                 <li><a href="https://socialyte.codeplus.it/personal-profile.html#" title="All notifications">All Notifications</a></li>
             </ul>
         </div>
-        <div className="second-icon menu-icon">
-            <span><a href="https://socialyte.codeplus.it/personal-profile.html" title="Profile"><span className="hidden-xs hidden-sm">Profile</span> <i className="fa fa-user" aria-hidden="true"></i></a>
-            </span>
-        </div>
-        <div className="second-icon menu-icon">
-            <span><a href="https://socialyte.codeplus.it/wall.html" title="Wall"><span className="hidden-xs hidden-sm">Wall</span> <i className="fa fa-database" aria-hidden="true"></i></a>
-            </span>
-        </div>
+        <MenuIcon title="Settings" icon="cogs" path="#settings"/>
+        <MenuIcon title="Notification" icon="bell-o" path="#notification" badge="2"/>
+        <MenuIcon title="Profile" icon="user" path="#profile"/>
+        <MenuIcon title="Wall" icon="database" path="#wall"/>
     </header>
 
     );

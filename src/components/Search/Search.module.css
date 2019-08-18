@@ -1,0 +1,25 @@
+.search {
+    float: left;
+    margin: 0px;
+}
+
+.search input {
+    width: 200px;
+    border-radius: 10px;
+    border: 0px;
+    color: #404040;
+    font-size: 13px;
+    padding: 5px;
+    padding-bottom: 3px;
+}
+
+@media screen and (max-width:767px)  {
+    .search, .search input {
+        width:100%;
+    }
+
+    .search input  {
+        border-radius:0px;
+        height: 40px;
+}
+}
