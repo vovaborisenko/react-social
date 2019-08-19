@@ -1,8 +1,12 @@
 .nav__tabs {
+    display: flex;
+    list-style: none;
     padding-left: 130px;
+    padding-top: 10px;
+    padding-bottom: 9px;
+    margin-bottom: 0;
     border-bottom: 1px solid #ddd
 }
-
 
 @media screen and (max-width:767px)  {
     .nav__tabs  { padding-left:15px; }

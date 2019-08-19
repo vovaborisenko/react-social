@@ -11,7 +11,7 @@ const Sidebar = (props) => {
                 <a href="https://socialyte.codeplus.it/personal-profile.html" title="Profile">My User</a>
             </h2>
             <p className="text-center user-description hidden-xs">
-                <i>{props.children}</i>
+                <i>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</i>
             </p>
         </div>
     );

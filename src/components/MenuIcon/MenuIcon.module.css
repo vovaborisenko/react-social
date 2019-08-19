@@ -4,6 +4,10 @@
     margin-right: 60px;
 }
 
+.menu__icon i {
+    margin-left: 0.3em;
+}
+
 .menu__icon:first-of-type {
     margin-right: 0;
 }
@@ -34,7 +38,7 @@
         text-align: center;
     }
 
-    .menu__icon .fa  {
+    .menu__icon i  {
         font-size: 20px;
     }
 

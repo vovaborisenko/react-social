@@ -1,12 +1,13 @@
 import React from 'react';
 import s from './Tab.module.css';
+import {NavLink} from 'react-router-dom';
 
 const Tab = (props) => {
     return (
-        <li className={props.active && "active"}>
-            <a href={`#${props.name}`} role="tab" id={`${props.name}Tab`} data-toggle="tab" aria-controls={`#${props.name}`} aria-expanded="true">
+        <li>
+            <NavLink to={`/${props.name}`} exact activeClassName={s.active}>
                 {props.title}
-            </a>
+            </NavLink>
         </li>
     );
 }
