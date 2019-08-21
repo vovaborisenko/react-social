@@ -10,9 +10,12 @@ Version: 1.1
 [Main Color]
 here you can change #f3ad00 main color.
 -----------------------------------------------------------------*/
-.btn-social, .btn-social, .bootstrap-switch .bootstrap-switch-handle-off.bootstrap-switch-primary,
+.btn-social,
+.btn-social,
+.bootstrap-switch .bootstrap-switch-handle-off.bootstrap-switch-primary,
 .bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-primary,
-::-webkit-scrollbar-thumb, ::-webkit-scrollbar-thumb:window-inactive {
+::-webkit-scrollbar-thumb,
+::-webkit-scrollbar-thumb:window-inactive {
     background: #f3ad00;
 }
 
@@ -37,7 +40,8 @@ here you can change #f3ad00 main color.
 1. Body
 -----------------------------------------------------------------*/
 
-html, body {
+html,
+body {
     height: 100%;
 }
 
@@ -46,43 +50,58 @@ body {
     font-family: Poppins, sans-serif;
 }
 
-a, a:link, a:visited, a:focus {
+a,
+a:link,
+a:visited,
+a:focus {
     color: #404040;
     text-decoration: none;
 }
 
-b, strong {
+b,
+strong {
     font-weight: 600;
 }
 
-h1, h2, h3 { font-weight: 600; }
+h1,
+h2,
+h3 {
+    font-weight: 600;
+}
 
-h2 {  font-size:22px; }
+h2 {
+    font-size: 22px;
+}
 
-h3 { font-size: 15px;
-     margin-top:0;
-     margin-bottom:5px;}
+h3 {
+    font-size: 15px;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
 
-video, img {
+video,
+img {
     width: 100%;
     height: auto;
 }
 
-.emoji  { width:16px;}
-
-.btn:focus,.btn:active, .btn:active:focus  { outline:none; }
-
-
-
-.img-user {
-    width: 90%;
-    margin-left: 5%;
+.emoji {
+    width: 16px;
 }
 
-.card-post .img-user  { max-width: 110px;
-                        min-width: 60px;}
+.btn:focus,
+.btn:active,
+.btn:active:focus {
+    outline: none;
+}
 
-.card-post .chat-row .img-user { min-width:inherit; }
+
+
+
+
+.card-post .chat-row .img-user {
+    min-width: inherit;
+}
 
 .img-user-mini {
     width: 30px;
@@ -90,7 +109,7 @@ video, img {
 }
 
 .popular-img {
-   margin-top:10px;
+    margin-top: 10px;
 }
 
 
@@ -100,7 +119,11 @@ video, img {
 
 
 
-header, header a, header a:link, header a:visited, header a:focus {
+header,
+header a,
+header a:link,
+header a:visited,
+header a:focus {
     color: #ffffff;
     text-decoration: none;
 }
@@ -119,7 +142,11 @@ header div {
 
 
 
-header .dropdown-menu, header .dropdown-menu a, header .dropdown-menu a:link, header .dropdown-menu a:focus, header .dropdown-menu a:visited {
+header .dropdown-menu,
+header .dropdown-menu a,
+header .dropdown-menu a:link,
+header .dropdown-menu a:focus,
+header .dropdown-menu a:visited {
     color: #404040;
 }
 
@@ -129,12 +156,19 @@ header .dropdown-menu {
     text-align: center;
 }
 
-header .dropdown-menu li, header .dropdown-menu li a { display: block;
-                                                       overflow: hidden;}
+header .dropdown-menu li,
+header .dropdown-menu li a {
+    display: block;
+    overflow: hidden;
+}
 
-.dropdown-menu>li>a  {  padding: 8px 20px; }
+.dropdown-menu>li>a {
+    padding: 8px 20px;
+}
 
-.dropdown-menu .divider {margin:0px;}
+.dropdown-menu .divider {
+    margin: 0px;
+}
 
 .dropdown-toggle {
     cursor: pointer;
@@ -172,7 +206,9 @@ header .dropdown-menu li, header .dropdown-menu li a { display: block;
     width: 100%;
 }
 
-.info-user i { color:#929292; }
+.info-user i {
+    color: #929292;
+}
 
 .reaction {
     padding: 10px 0;
@@ -188,7 +224,8 @@ header .dropdown-menu li, header .dropdown-menu li a { display: block;
     padding: 0px;
 }
 
-.comments ul li, .comments .more-comments {
+.comments ul li,
+.comments .more-comments {
     padding: 5px 0;
 }
 
@@ -207,15 +244,23 @@ header .dropdown-menu li, header .dropdown-menu li a { display: block;
     line-height: 22px;
 }
 
-.info-user { margin-top:15px; }
+.info-user {
+    margin-top: 15px;
+}
 
-.info-user p {margin:0px; }
+.info-user p {
+    margin: 0px;
+}
 
-.primary-content { width:70%;
-                   float: left; }
+.primary-content {
+    width: 70%;
+    float: left;
+}
 
-.sidebar-right  { width:28%;
-                  float: left; }
+.sidebar-right {
+    width: 28%;
+    float: left;
+}
 
 .primary-content .container-posts {
     padding: 0 40px;
@@ -246,8 +291,10 @@ header .dropdown-menu li, header .dropdown-menu li a { display: block;
     font-weight: 100;
 }
 
-.chat-message h4 { margin-top:2px;
-                   font-size: 14px;}
+.chat-message h4 {
+    margin-top: 2px;
+    font-size: 14px;
+}
 
 .chat-row {
     margin-top: 20px;
@@ -275,7 +322,8 @@ header .dropdown-menu li, header .dropdown-menu li a { display: block;
     overflow-x: hidden;
 }
 
-.badge-replay, .badge-message {
+.badge-replay,
+.badge-message {
     font-size: 14px;
     position: relative;
     top: 36px;
@@ -299,10 +347,7 @@ textarea.post-textarea {
     margin-top: 10px;
 }
 
-.row-user-list {
-    padding: 10px 0;
-    border-bottom: 1px solid #eaeaea;
-}
+
 
 
 /*----------------------------------------------------------------
@@ -317,12 +362,20 @@ textarea.post-textarea {
     background-position: center;
 }
 
-.btn-social { color: #ffffff;}
+.btn-social {
+    color: #ffffff;
+}
 
-.btn-social:hover, .btn-social:focus, .btn-social:active { color: #ffffff;
-                                                           background: #e8a500;}
+.btn-social:hover,
+.btn-social:focus,
+.btn-social:active {
+    color: #ffffff;
+    background: #e8a500;
+}
 
-.btn-social:active:focus { background: #d09400;}
+.btn-social:active:focus {
+    background: #d09400;
+}
 
 .form-box {
     width: 380px;
@@ -353,11 +406,16 @@ textarea.post-textarea {
     padding: 0 10px;
 }
 
-.form-logo img { width:90%;
-                 margin:25px 0 10px;
-                 height: auto;}
+.form-logo img {
+    width: 90%;
+    margin: 25px 0 10px;
+    height: auto;
+}
 
-.login-action, .login-action:link, .login-action:focus, .login-action:visited {
+.login-action,
+.login-action:link,
+.login-action:focus,
+.login-action:visited {
     color: #ffffff;
     font-size: 12px;
 }
@@ -376,29 +434,34 @@ footer.login-footer {
 
 
 
-.modal-header { background: #4F5467;
-                color: #ffffff;
-               }
+.modal-header {
+    background: #4F5467;
+    color: #ffffff;
+}
 
-.modal-row  { margin-top:25px; }
+.modal-row {
+    margin-top: 25px;
+}
 
-.modal-row p { margin-top: 8px;}
+.modal-row p {
+    margin-top: 8px;
+}
 
 
 /*----------------------------------------------------------------
 7. Scrollbar
 -----------------------------------------------------------------*/
 
- ::-webkit-scrollbar {
+::-webkit-scrollbar {
     width: 5px;
 }
 
- ::-webkit-scrollbar-track {
+::-webkit-scrollbar-track {
     -webkit-border-radius: 10px;
     border-radius: 10px;
 }
 
- ::-webkit-scrollbar-thumb {
+::-webkit-scrollbar-thumb {
     -webkit-border-radius: 10px;
     border-radius: 10px;
 }
@@ -407,75 +470,113 @@ footer.login-footer {
 8. Small Devices
 -----------------------------------------------------------------*/
 
-@media screen and (max-width:1199px)  {
-
-                                          
-
-                                          
-
-                                          .container-posts { padding:0px 30px;  }
-                                      }
-
-@media screen and (max-width:991px) {  .img-user { width: 100%;
-                                                   margin: 0px;}
-
-                                        header .dropdown-menu { top:33px; }
-
-                                        .primary-content { width:100%;}
-                                     }
-
-@media screen and (max-width:767px)  {
-
-  
-
-  header .dropdown { width:100%; }
-
-  header .dropdown-menu { top:36px; }
+@media screen and (max-width:1199px) {
 
 
-  .img-user   { width:80%;
-                margin-left:10%;  }
-
-  .card-post .img-user { width:70%;
-                        margin-left:15%; }
-
-  .card-post .chat-row .img-user  { width:100%;
-                                    margin:0px;}
-
-  
-
-  
 
 
-  .container-posts, .primary-content .container-posts { padding:0px 15px;  }
 
-  .data-post { margin-top:15px;}
+    .container-posts {
+        padding: 0px 30px;
+    }
+}
 
-  .profile-content .nav-tabs  { padding-left:15px; }
+@media screen and (max-width:991px) {
+    .img-user {
+        width: 100%;
+        margin: 0px;
+    }
 
-  .chat-message .chat-time {   top: 6px;
-                               right: 10px;}
+    header .dropdown-menu {
+        top: 33px;
+    }
 
-  .form-box  {margin-bottom:60px;}
+    .primary-content {
+        width: 100%;
+    }
+}
 
-  
+@media screen and (max-width:767px) {
+
+
+
+    header .dropdown {
+        width: 100%;
+    }
+
+    header .dropdown-menu {
+        top: 36px;
+    }
+
+
+    .img-user {
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .card-post .img-user {
+        width: 70%;
+        margin-left: 15%;
+    }
+
+    .card-post .chat-row .img-user {
+        width: 100%;
+        margin: 0px;
+    }
+
+
+
+
+
+
+    .container-posts,
+    .primary-content .container-posts {
+        padding: 0px 15px;
+    }
+
+    .data-post {
+        margin-top: 15px;
+    }
+
+    .profile-content .nav-tabs {
+        padding-left: 15px;
+    }
+
+    .chat-message .chat-time {
+        top: 6px;
+        right: 10px;
+    }
+
+    .form-box {
+        margin-bottom: 60px;
+    }
+
+
 
 }
 
-@media screen and (max-width:479px)  {
-                                          
+@media screen and (max-width:479px) {
 
-                                          header .dropdown-menu { top:32px; }
 
-                                           .img-user {  width:100%;
-                                                        margin: 0px;}
+    header .dropdown-menu {
+        top: 32px;
+    }
 
-                                          .card-post  .img-user  {width:90%;
-                                                                  margin-left:5%;}
+    .img-user {
+        width: 100%;
+        margin: 0px;
+    }
 
-                                          
+    .card-post .img-user {
+        width: 90%;
+        margin-left: 5%;
+    }
 
-                                          .form-box  {width: 310px;
-                                                      margin-top: -225px;}
 
-                                      }
+
+    .form-box {
+        width: 310px;
+        margin-top: -225px;
+    }
+
+}

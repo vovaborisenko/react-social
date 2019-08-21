@@ -9,22 +9,30 @@
     z-index: 99;
 }
 
-@media screen and (max-width:1199px)  {
+.avatar {
+    width: 90%;
+    max-width: 110px;
+    min-width: 60px;
+    margin-left: 5%;
+    border-radius: 50%
+}
+
+@media screen and (max-width:1199px) {
     .sidebar {
-        width:190px;
+        width: 190px;
     }
 }
 
-@media screen and (max-width:767px)  {
+@media screen and (max-width:767px) {
     .sidebar {
-        width:125px;
+        width: 125px;
         height: auto;
         padding: 10px;
     }
 }
 
-@media screen and (max-width:479px)  {
+@media screen and (max-width:479px) {
     .sidebar {
-        width:100px;
+        width: 100px;
     }
 }

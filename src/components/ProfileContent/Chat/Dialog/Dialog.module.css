@@ -1,0 +1,36 @@
+.row {
+    padding: 10px 0;
+    border-bottom: 1px solid #eaeaea;
+}
+
+.avatar {
+    width: 90%;
+    max-width: 110px;
+    min-width: 60px;
+    margin-left: 5%;
+    border-radius: 50%
+}
+
+.time {
+    font-size: 11px;
+    color: #b5b5b5;
+    margin-bottom: 6px;
+}
+
+.badge {
+    position: relative;
+    top: 36px;
+    right: -12px;
+    padding: 4px 8px;
+    font-size: 14px;
+    background-color: #f3ad00;
+    display: inline-block;
+    min-width: 10px;
+    font-weight: 400;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    border-radius: 10px;
+}

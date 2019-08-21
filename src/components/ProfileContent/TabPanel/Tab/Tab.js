@@ -5,7 +5,7 @@ import {NavLink} from 'react-router-dom';
 const Tab = (props) => {
     return (
         <li>
-            <NavLink to={`/${props.name}`} exact activeClassName={s.active}>
+            <NavLink to={props.link} exact activeClassName={s.active}>
                 {props.title}
             </NavLink>
         </li>
