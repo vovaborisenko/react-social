@@ -1,9 +1,11 @@
-import React from 'react';
+import React from "react";
 
-const Comment = (props) => {
-    return (
-        <li><b>{props.user}</b> {props.text}</li>
-    );
-}
+const Comment = props => {
+  return (
+    <li>
+      <b>{props.state.username}</b> {props.state.text}
+    </li>
+  );
+};
 
 export default Comment;
